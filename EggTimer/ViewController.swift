@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var titleLabel: UILabel!
     let eggTimes = ["Soft": 3, "Medium": 4, "Hard": 7]
     var timer = Timer()
-    var player = AVAudioPlayer()
+    var player: AVAudioPlayer!
     var totalTime = 0
     var secondsPassed = 0
     
